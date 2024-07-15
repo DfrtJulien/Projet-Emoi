@@ -13,14 +13,6 @@
     width: 100%;
 }
 
-.col-m {
-    width: 100%;
-}
-
-.col-l {
-    width: 100%;
-}
-
 .flex-l {
     display: block;
 }
@@ -145,19 +137,18 @@ nav {
     font-size: 12px;
 }
 
+.hover {
+    display: none;
+}
+
+.white-space {
+    margin: 0;
+}
 
 @media screen and (min-width: 768px) {
     
     .col-sm {
         width: 24%;
-    }
-
-    .col-m {
-        width: 49%;
-    }   
-
-    .col-l {
-        width: 72%;
     }
 
     .flex-l {
@@ -219,12 +210,65 @@ nav {
         justify-content: space-around;
     }
 
+    .content p {
+        margin-left: 60px;
+    }
 
 /***************************************************** SECOND SECTION ************************************/
 
-.container-l h2 {
-    text-align: start;
-    /* margin-left: 100px; */
+    .container-l h2 {
+        text-align: start;
+    }
+
+    .white-space {
+        margin-left: 10px;
+    }
+
+    .hover-animation{
+        overflow: hidden;
+    }
+
+    .hover p {
+        font-size: 2em;
+        margin-top: 50%;
+    }
+
+    .hover-animation:hover .hover {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .hover {
+        transform: translateX(-400px);
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(245, 239, 239);
+        text-align: center;
+        z-index: 2;
+        opacity: 0;
+        transition: all 0.8s ease-out;
+        cursor: pointer;
+    }
+
+/******************************************** TROISIEME SECTION ************************************/
+    .small-img {
+        height: 67%;
+    }
+
+    .big-container {
+        width: 50%;
 }
 
+    .small-container {
+        height: 629px;
+    }
+
+    .flex-1 {
+        height: 754px;
+        width: 50%;
+    }
 }
