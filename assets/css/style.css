@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-l {
+    width: 85%;
+    margin: auto;
+}
+
+.col-sm {
+    width: 100%;
+}
+
+.col-m {
+    width: 100%;
+}
+
+.col-l {
+    width: 100%;
+}
+
+.flex-l {
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+/****************************************** HEADER *****************************************************/
+
+header {
+    background: url(/assets/img/bg.jpg);
+    height: 850px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    display: none;
+}
+
+.hamburger {
+    font-size: 30px;
+    color: white;
+}
+
+.tittle-container {
+    width: 38%;
+    margin-top: 40%;
+    margin-left: 20px;
+    margin-bottom: 58%;
+    font-size: 1.7em;
+    color: white;
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.scroll {
+    font-size: 1.2em;
+    color: white;
+    margin-left: 20px;
+}
+
+.arrow {
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .col-sm {
+        width: 24%;
+    }
+
+    .col-m {
+        width: 49%;
+    }   
+
+    .col-l {
+        width: 72%;
+    }
+
+    .flex-l {
+        display: flex;
+    }
+
+/****************************************** HEADER *****************************************************/
+
+    header {
+        height: 100vh;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .logo-link {
+        justify-content: start;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        margin-left: 40px;
+    }
+
+    nav li a {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .tittle-container {
+        width: 25%;
+        margin-top: 10%;
+        margin-left: 100px;
+        margin-bottom: 13%;
+        font-size: 2.5em;
+    }
+    
+    .scroll-container {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+    }
+}
