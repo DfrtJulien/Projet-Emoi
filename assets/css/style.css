@@ -5,7 +5,7 @@
 }
 
 .container-l {
-    width: 85%;
+    width: 87%;
     margin: auto;
 }
 
@@ -111,6 +111,41 @@ nav {
     width: 280px;
 }
 
+/***************************************************** SECOND SECTION ************************************/
+
+.container-l h2 {
+    margin-top: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e2e5e493;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.price h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.price p {
+    font-size: 12px;
+}
+
+
 @media screen and (min-width: 768px) {
     
     .col-sm {
@@ -183,5 +218,13 @@ nav {
     .js-space-around {
         justify-content: space-around;
     }
+
+
+/***************************************************** SECOND SECTION ************************************/
+
+.container-l h2 {
+    text-align: start;
+    /* margin-left: 100px; */
+}
 
 }
