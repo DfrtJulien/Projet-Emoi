@@ -91,6 +91,26 @@ nav {
     margin-top: 5px;
 }
 
+/***************************************************** FIRST SECTION ************************************/
+
+
+.content {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.icon-content {
+    color: #ADD981;
+    font-size: 60px;
+}
+
+.content p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+}
+
 @media screen and (min-width: 768px) {
     
     .col-sm {
@@ -157,4 +177,11 @@ nav {
         align-items: center;
         margin-left: 100px;
     }
+
+/****************************************** FIRST SECTION *****************************************************/
+
+    .js-space-around {
+        justify-content: space-around;
+    }
+
 }
