@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container-l {
@@ -34,7 +35,6 @@ li {
 
 header {
     background: url(/assets/img/bg.jpg);
-    height: 850px;
 }
 
 .logo-link {
@@ -145,6 +145,17 @@ nav {
     margin: 0;
 }
 
+/****************************************** FOOTER *****************************************************/
+
+footer {
+    padding-top: 60px;
+}
+
+footer p {
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+
 @media screen and (min-width: 768px) {
     
     .col-sm {
@@ -157,9 +168,9 @@ nav {
 
 /****************************************** HEADER *****************************************************/
 
-    header {
+    /* header {
         height: 100vh;
-    }
+    } */
 
     nav {
         display: block;
@@ -192,9 +203,9 @@ nav {
 
     .tittle-container {
         width: 25%;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 100px;
-        margin-bottom: 13%;
+        margin-bottom: 12%;
         font-size: 2.5em;
     }
     
@@ -270,5 +281,11 @@ nav {
     .flex-1 {
         height: 754px;
         width: 50%;
+    }
+
+/****************************************** FOOTER *****************************************************/
+
+    .footer-flex {
+        justify-content: space-between;
     }
 }
